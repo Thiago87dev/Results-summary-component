@@ -20,7 +20,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ### Links
 
 - Solution URL: (https://www.frontendmentor.io/solutions/qr-code-component-solution-with-html-and-css-n1vmhsuJX4)
-- Live Site URL: (https://thiago87dev.github.io/qr-code-component/)
+- Live Site URL: (https://thiago87dev.github.io/Results-summary-component/)
 
 ## My process
 
