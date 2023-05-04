@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 410px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px hsl(221, 100%, 96%);
+    
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 50%;
+    height: 100%; 
+    border-radius: 20px;
+}
+
+.title-result{
+  font-size: 1.2rem; 
+  color: hsl(241, 100%, 89%); 
+  margin-top: 30px;
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    margin-top: 30px;
+}
+
+.number-big{
+    color: hsl(0, 0%, 100%);
+    font-size: 3.5rem;
+}
+
+.number-small{
+    color: hsl(241, 100%, 89%);
+    
+
+    font-size: 0.9rem;
+}
+
+.texts{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.title-great{
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.6rem;
+}
+
+.text{
+    color:hsl(241, 100%, 89%);
+    font-size: 0.87rem;
+    line-height:20px ;
+}
+
+.right-side{
+    width: 50%;
+    height: 100%;
+}
+
+.title-summary{
+    color: hsl(224, 30%, 27%);
+    font-size: 1.2rem;
+    margin: 25px 0 20px 35px;
+    font-weight: 800;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#card-reaction{
+    background-color: hsla(0, 100%, 67%, 8%);
+}
+#card-memory{
+    background-color: hsla(39, 100%, 56%, 8%);
+}
+#card-verbal{
+    background-color: hsla(166, 100%, 37%, 8%);
+}
+#card-visual{
+    background-color: hsla(234, 85%, 45%, 8%);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px 15px 30px;
+    border-radius: 8px;
+    width: 240px;
+    height: 50px;
+}
+
+.img-text{
+    display: flex;
+    margin-left: 20px;
+    
+    
+}
+
+.row-text{
+    margin-left: 10px;
+    
+}
+
+.row-numbs{
+   display: flex;
+}
+
+.numb100{
+    color: hsl(224, 30%, 27%);
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+
+b{
+    margin-right: 10px;
+}
+
+.btn{
+    width: 240px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:active{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+
+@media(max-width: 540px){
+    .main-content{
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .left-side{
+        width: 100vw;
+    }
+
+    .right-side{
+        width: 100vw;
+    }
+
+    .row{
+        width: 85vw;
+    }
+
+    .btn{
+        width: 85vw;
+    }
+
+    .texts{
+        width: 250px;
+    }
+
+   
+}
+
+
