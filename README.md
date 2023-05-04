@@ -15,7 +15,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Screenshot
 
-![screenshot](./assets/images/Captura%20de%20tela%202023-05-04%20104821.png)
+![screenshot](./assets/images/screenshot-results-summary-component.png)
 
 ### Links
 
